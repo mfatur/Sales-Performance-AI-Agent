@@ -60,4 +60,9 @@ Visualisasi chart tren sales bulanan sebagai gambar di dalam chat, bukan cuma te
 
 ---
 
-## Author 
+## Author
+
+**Muhammad Faturrahman**
+
+💼 [LinkedIn](https://www.linkedin.com/in/mfaturr/) | 
+📧 faturrahman9.fr@gmail.com
