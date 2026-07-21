@@ -4,6 +4,8 @@ An AI-powered retail sales analytics agent built with Langflow that automates da
 
 Analisis performa penjualan pada data transaksi berskala besar (puluhan ribu baris, lintas kategori dan wilayah) masih dilakukan secara manual menggunakan spreadsheet atau query teknis, sehingga proses menemukan insight seperti tren penjualan bulanan, kategori paling menguntungkan, atau penyebab penurunan sales memakan waktu lama dan rentan kesalahan interpretasi data.
 
+---
+
 ## Target Users
 
 Pengguna utama solusi ini adalah manajer penjualan/sales manager, business analyst, dan business owner/eksekutif di perusahaan retail atau ritel multi-kategori yang memiliki volume data transaksi cukup besar untuk dianalisis secara berkala.
@@ -22,6 +24,8 @@ Insight yang disertai rekomendasi actionable.
 
 Konteks Penggunaan: Digunakan secara berkala (harian/mingguan/bulanan) saat meninjau performa penjualan terbaru, menyiapkan laporan ke manajemen, atau investigasi cepat atas anomali data.
 
+---
+
 ## Potential Impact
 
 Solusi ini mengotomatiskan seluruh alur analisis data penjualan — dari cleaning data, perhitungan KPI, hingga menjawab pertanyaan analitis secara interaktif melalui LLM. Manfaat utamanya:
@@ -31,6 +35,9 @@ Aksesibilitas tanpa hambatan teknis — insight kompleks bisa digali cukup denga
 Pengambilan keputusan lebih cepat & berbasis data — Executive Summary dan rekomendasi otomatis membantu merespons tren negatif lebih dini.
 Konsistensi & akurasi — perhitungan KPI dilakukan programatis, meminimalkan human error.
 Skalabilitas — arsitektur berbasis komponen memudahkan pengembangan lebih lanjut.
+
+---
+
 ## 🔄 Alur Sistem
 
 Input: File CSV data transaksi penjualan (Superstore) + pertanyaan pengguna dalam bahasa natural.
@@ -39,7 +46,9 @@ Proses: Data CSV dibersihkan (cleaning, cek missing value & duplikat), lalu diol
 
 Output: Ringkasan performa penjualan otomatis serta jawaban interaktif yang akurat dan berbasis data nyata, termasuk drill-down penyebab tren dan rekomendasi actionable.
 
-🛠️ Apa yang Diterapkan di Project Ini
+---
+
+## 🛠️ Apa yang Diterapkan di Project Ini
 Arsitektur agentic dengan tool-calling — Agent mengambil data KPI langsung dari hasil olahan data transaksi, bukan dari asumsi LLM.
 Custom Python component untuk data cleaning, perhitungan KPI, serta 2 tools terpisah:
 Trend Query Tool — analisis time-series (growth rate & drill-down penyebab perubahan sales per kategori/region).
