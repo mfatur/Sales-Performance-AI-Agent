@@ -38,7 +38,7 @@ Skalabilitas — arsitektur berbasis komponen memudahkan pengembangan lebih lanj
 
 ---
 
-## 🔄 Alur Sistem
+## Alur Sistem
 
 Input: File CSV data transaksi penjualan (Superstore) + pertanyaan pengguna dalam bahasa natural.
 
@@ -48,7 +48,7 @@ Output: Ringkasan performa penjualan otomatis serta jawaban interaktif yang akur
 
 ---
 
-## 🛠️ Apa yang Diterapkan di Project Ini
+## Apa yang Diterapkan di Project Ini
 Arsitektur agentic dengan tool-calling — Agent mengambil data KPI langsung dari hasil olahan data transaksi, bukan dari asumsi LLM.
 Custom Python component untuk data cleaning, perhitungan KPI, serta 2 tools terpisah:
 Trend Query Tool — analisis time-series (growth rate & drill-down penyebab perubahan sales per kategori/region).
@@ -57,3 +57,7 @@ Prompt engineering terstruktur dengan batasan data eksplisit di dalam prompt, ag
 Agent instructions dengan guardrail untuk mencegah tool-calling berulang tanpa henti (infinite loop).
 Konversi tipe data antar komponen (Data ↔ Message) agar seluruh pipeline saling terhubung sesuai kebutuhan tipe input/output.
 Visualisasi chart tren sales bulanan sebagai gambar di dalam chat, bukan cuma teks.
+
+---
+
+## Author 
