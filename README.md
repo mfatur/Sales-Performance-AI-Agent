@@ -1,5 +1,5 @@
 # Sales-Performance-AI-Agent
-> An AI-powered retail sales analytics agent built with Langflow that automates data cleaning, KPI calculations, and interactive questio
+> An AI-powered retail sales analytics agent built with Langflow that automates data cleaning, KPI calculations, and interactive question
 ## Problem Statement
 
 Analisis performa penjualan pada data transaksi berskala besar (puluhan ribu baris, lintas kategori dan wilayah) masih dilakukan secara manual menggunakan spreadsheet atau query teknis, sehingga proses menemukan insight seperti tren penjualan bulanan, kategori paling menguntungkan, atau penyebab penurunan sales memakan waktu lama dan rentan kesalahan interpretasi data.
