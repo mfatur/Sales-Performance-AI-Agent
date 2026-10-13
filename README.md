@@ -30,11 +30,11 @@ Konteks Penggunaan: Digunakan secara berkala (harian/mingguan/bulanan) saat meni
 
 Solusi ini mengotomatiskan seluruh alur analisis data penjualan — dari cleaning data, perhitungan KPI, hingga menjawab pertanyaan analitis secara interaktif melalui LLM. Manfaat utamanya:
 
-Efisiensi waktu — proses yang sebelumnya berjam-jam kini selesai dalam hitungan detik/menit.
-Aksesibilitas tanpa hambatan teknis — insight kompleks bisa digali cukup dengan bertanya dalam bahasa sehari-hari.
-Pengambilan keputusan lebih cepat & berbasis data — Executive Summary dan rekomendasi otomatis membantu merespons tren negatif lebih dini.
-Konsistensi & akurasi — perhitungan KPI dilakukan programatis, meminimalkan human error.
-Skalabilitas — arsitektur berbasis komponen memudahkan pengembangan lebih lanjut.
+Efisiensi waktu - proses yang sebelumnya berjam-jam kini selesai dalam hitungan detik/menit.
+Aksesibilitas tanpa hambatan teknis - insight kompleks bisa digali cukup dengan bertanya dalam bahasa sehari-hari.
+Pengambilan keputusan lebih cepat & berbasis data - Executive Summary dan rekomendasi otomatis membantu merespons tren negatif lebih dini.
+Konsistensi & akurasi - perhitungan KPI dilakukan programatis, meminimalkan human error.
+Skalabilitas - arsitektur berbasis komponen memudahkan pengembangan lebih lanjut.
 
 ---
 
@@ -49,10 +49,10 @@ Output: Ringkasan performa penjualan otomatis serta jawaban interaktif yang akur
 ---
 
 ## Apa yang Diterapkan di Project Ini
-Arsitektur agentic dengan tool-calling — Agent mengambil data KPI langsung dari hasil olahan data transaksi, bukan dari asumsi LLM.
+Arsitektur agentic dengan tool-calling - Agent mengambil data KPI langsung dari hasil olahan data transaksi, bukan dari asumsi LLM.
 Custom Python component untuk data cleaning, perhitungan KPI, serta 2 tools terpisah:
-Trend Query Tool — analisis time-series (growth rate & drill-down penyebab perubahan sales per kategori/region).
-Dimension Query Tool — query dimensi (top produk, kategori, customer, region).
+Trend Query Tool - analisis time-series (growth rate & drill-down penyebab perubahan sales per kategori/region).
+Dimension Query Tool - query dimensi (top produk, kategori, customer, region).
 Prompt engineering terstruktur dengan batasan data eksplisit di dalam prompt, agar LLM tidak menghasilkan insight yang menyesatkan (hallucination) di luar cakupan data.
 Agent instructions dengan guardrail untuk mencegah tool-calling berulang tanpa henti (infinite loop).
 Konversi tipe data antar komponen (Data ↔ Message) agar seluruh pipeline saling terhubung sesuai kebutuhan tipe input/output.
