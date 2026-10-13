@@ -28,7 +28,7 @@ Konteks Penggunaan: Digunakan secara berkala (harian/mingguan/bulanan) saat meni
 
 ## Potential Impact
 
-Solusi ini mengotomatiskan seluruh alur analisis data penjualan — dari cleaning data, perhitungan KPI, hingga menjawab pertanyaan analitis secara interaktif melalui LLM. Manfaat utamanya:
+Solusi ini mengotomatiskan seluruh alur analisis data penjualan dari cleaning data, perhitungan KPI, hingga menjawab pertanyaan analitis secara interaktif melalui LLM. Manfaat utamanya:
 
 Efisiensi waktu - proses yang sebelumnya berjam-jam kini selesai dalam hitungan detik/menit.
 Aksesibilitas tanpa hambatan teknis - insight kompleks bisa digali cukup dengan bertanya dalam bahasa sehari-hari.
